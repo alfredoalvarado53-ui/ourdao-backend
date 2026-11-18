@@ -445,7 +445,7 @@ npm run lint
 npm run typecheck
 ```
 
-597 tests across 72 files, covering:
+700+ tests across 80+ test files (`test/*.test.ts`), covering:
 
 - Event decode logic (`decodeEvent`, `toJsonSafe`) in isolation.
 - Every indexer handler (membership, loan lifecycle including defaults, treasury, staking, registry, commit-reveal privacy, document attachments) against a real Postgres instance — not mocked.
